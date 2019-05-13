@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script>
+let x = 0.4 * Math.pow(10, 4);
+let y = -0.875;
+let z = -0.475 * Math.pow(10, -3);
+let a = Math.pow((Math.abs(Math.cos(x) - Math.cos(y))), 1 + 2 * (Math.pow(Math.sin(y), 2)));
+let b = 1 + z + (Math.pow(z, 2) / 2) + (Math.pow(z, 3) / 3) + (Math.pow(z, 4) / 4);
+let s = a * b;
+console.log(s);
+</script>
+<body>
+    
+</body>
+</html>
